@@ -1,0 +1,4 @@
+CREATE DATABASE IF NOT EXISTS PeopleDb CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+CREATE USER IF NOT EXISTS 'people_user'@'localhost' IDENTIFIED BY 'people_pwd';
+GRANT ALL PRIVILEGES ON PeopleDb.* TO 'people_user'@'localhost';
+FLUSH PRIVILEGES;
