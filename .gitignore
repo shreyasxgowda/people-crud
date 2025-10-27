@@ -1,0 +1,29 @@
+VS Code
+.vscode/
+*.code-workspace
+
+OS
+.DS_Store
+Thumbs.db
+
+Backend (.NET)
+backend/bin/
+backend/obj/
+backend/.user
+backend/.suo
+backend/appsettings.Development.json
+
+Frontend (Vite/Node)
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/npm-debug.log*
+frontend/yarn-error.log*
+frontend/.env
+frontend/.env.*
+
+Logs
+*.log
+
+Keep DB exports (schema files) tracked
+db/people_schema.sql should be included
