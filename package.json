@@ -1,0 +1,28 @@
+{
+  "name": "people-crud",
+  "version": "1.0.0",
+  "description": "Frontend: React (Vite)\r Backend: ASP.NET Core Web API (C#) + Entity Framework Core\r Database: MySQL",
+  "main": "index.js",
+  "scripts": {
+    "dev:api": "dotnet watch --project backend",
+    "dev:web": "npm run dev --prefix frontend -- --port 5173 --strictPort",
+    "dev": "concurrently -n API,WEB -c blue,green \"dotnet watch --project backend\" \"npm run dev --prefix frontend -- --port 5173 --strictPort\"",
+    "build:web": "npm run build --prefix frontend",
+    "start:web": "npm run preview --prefix frontend",
+    "start:api": "dotnet run --project backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreyasxgowda/people-crud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shreyasxgowda/people-crud/issues"
+  },
+  "homepage": "https://github.com/shreyasxgowda/people-crud#readme",
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  }
+}

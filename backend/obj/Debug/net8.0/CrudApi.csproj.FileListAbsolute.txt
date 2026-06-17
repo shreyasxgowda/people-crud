@@ -104,3 +104,4 @@ C:\Users\shrey\GitHubAssessment\Inhawk-Assessment3\people-crud\backend\obj\Debug
 C:\Users\shrey\GitHubAssessment\Inhawk-Assessment3\people-crud\backend\obj\Debug\net8.0\CrudApi.pdb
 C:\Users\shrey\GitHubAssessment\Inhawk-Assessment3\people-crud\backend\obj\Debug\net8.0\CrudApi.genruntimeconfig.cache
 C:\Users\shrey\GitHubAssessment\Inhawk-Assessment3\people-crud\backend\obj\Debug\net8.0\ref\CrudApi.dll
+C:\Users\shrey\GitHubAssessment\Inhawk-Assessment3\people-crud\backend\obj\Debug\net8.0\CrudApi.sourcelink.json
